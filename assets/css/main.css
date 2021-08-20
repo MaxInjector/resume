@@ -1,0 +1,223 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #EEEFF1;
+    color: #282424;
+}
+
+.navbar{
+    margin-top: 10px;
+}
+
+.navbar-light .navbar-brand{
+    font-weight: 400;
+    margin-left: 40px;
+}
+
+.nav-link{
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 40px;
+}
+
+.nav-link a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.hero-content{
+    margin-top: 30px;
+}
+
+.hero-content h1{
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.hero-content p{
+    font-size: 20px;
+    line-height: 35px;
+    margin-top: 10px;
+}
+
+.hero-social a{
+    font-size: 30px;
+    color: #282424;
+    margin-right: 15px;
+}
+
+.career-content{
+    margin-bottom: 100px;
+}
+
+.career-content h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.career-content p{
+    font-size: 20px;
+    line-height: 35px;
+    
+}
+
+.career-service{
+    margin-top: 30px;
+}
+
+.career-service-content{
+    border: 1px solid #DCDCDC;
+    display: inline-block;
+    font-size: 18px;
+    padding: 7px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.career-service-content img{
+    position: relative;
+    top: -2px;
+    left: -5px;
+}
+.contact{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+}
+.btn-primary{
+    background: #282424;
+    border: none;
+    padding: 10px 40px;
+}
+
+.btn-primary:hover{
+    background: #282424;
+    border: none;
+    padding: 10px 40px;
+}
+
+.contact-title h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.project{
+    background: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.project-head-title h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.project-head-title p{
+    font-size: 20px;
+    line-height: 35px;
+
+}
+
+.project-img, .project-text{
+    margin-top: 30px;
+}
+
+.project-text a{
+    border: 2px solid #b8b8b8;
+    padding: 15px 30px;
+    color: #b8b8b8;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.project-text h3{
+   font-size: 25px; 
+   font-weight: 500;
+}
+
+.project-text p{
+    font-size: 18px;
+    color: #282424;
+    margin-bottom: 30px;
+}
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+    color: #b8b6b6;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 769px){
+    .navbar-light .navbar-brand {
+        font-weight: 400;
+        margin-left: 10px;
+    }
+    
+    .nav-link {
+        background: #000;
+        color: #fff;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+    
+    .hero-content h1 {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .hero-content p {
+        font-size: 18px;
+        line-height: 35px;
+        margin-top: 10px;
+    }
+
+    .hero {
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+
+    .career-content h1 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .career-content p {
+        font-size: 18px;
+        line-height: 35px;
+        margin-top: 10px;
+    }
+    
+    .career-content {
+        margin-bottom: 0px;
+    }
+
+    .contact-title h1 {
+        font-size: 60px;
+        font-weight: 700;
+    }
+
+    .career{
+        display: flex;
+    }
+
+    .order-1{
+        order: 1;
+    }
+
+    .order-2{
+        order: 2;
+    }
+}
